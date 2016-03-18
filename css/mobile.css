@@ -1,10 +1,41 @@
-#benefits .col-2 {
-    width: 100%; 
-}
+@media (max-width: 768px) {
+	#benefits .col-2 {
+	    width: 100%; 
+	}
 
-.note {
-	margin-top: 10px !important;
-}
-.phones-note {
-	margin-left: auto !important;
+	.note {
+		margin-top: 10px !important;
+	}
+
+	.phones-note {
+		margin-left: auto !important;
+	}
+
+	.plan a.plan2, .plan a {
+	    width: 95%;
+	    margin-bottom: 8px;
+	    margin-left: auto;
+	    margin-right: auto;
+	    margin-bottom: 8px;
+	    margin-top: 12px;
+	}
+	.plan a.plan3et > img {
+		height: 100% !important;
+	}
+	.plan a {
+		height: 300px;
+	}
+	.plan a.plan2 > img , .plan a > img{
+	    height: 100%;
+	    width: 100%;
+	}
+
+	.center3 {
+		width: 350px; 
+	}	
+
+	.row.plan3et {
+    	height: auto !important;
+    	padding: 10px;
+	}
 }

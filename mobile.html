@@ -23,7 +23,13 @@
     <![endif]-->     
     <link href='http://fonts.googleapis.com/css?family=PT+Serif:700italic' rel='stylesheet' type='text/css'>
     <link href="js/slider/jquery.bxslider.min.css" rel="stylesheet" type="text/css" /> 
- 
+        <script type="text/javascript">
+          <!-- 
+          if (screen.width > 768) {
+            window.location = "mobile.html";
+          }
+          //-->
+        </script>
       <script>
         (function(i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
@@ -433,10 +439,21 @@
 <section class="ad ad2" id="call-me">
     <div class="bg__ad2">
         <form role="form" id="zayavka" class="form-inline request-form container" action="s/srequest.php" method="POST">
-            <h2 class="request-title">Залишіть заявку на огляд:</h2>
+        <div class="row">
+             <h2 class="request-title">Залишіть заявку на огляд:</h2>
+        </div>
+        <div class="row">
+        <div class="col-sm-4">
             <input name="name" required value="" placeholder="Вкажiть Ваше ім'я" />
+        </div>   
+        <div class="col-sm-4">   
             <input name="phone" required value="" placeholder="Вкажіть Ваш телефон">
+        </div>
+        <div class="row">
+          <div class="col-sm-offset-2 col-sm-10">   
             <button type="submit" id="go" class="btn btn-success" onclick="mixpanel.track('zayavka-main-form'); _gaq.push(['_trackEvent', 'Buttons', 'Order-Main']); ">Залишити заявку!</button>
+          </div>
+        </div>
         </form>
     </div>
 </section>

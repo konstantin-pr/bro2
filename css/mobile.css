@@ -38,4 +38,66 @@
     	height: auto !important;
     	padding: 10px;
 	}
+
+	/*First Form*/
+
+	.request-form {
+		position: relative;
+		left: 0;
+		width: 100%;
+		padding: 8%;
+	}	
+
+	.request-form h2 {
+		text-align: center;
+	}
+
+	.request-form input, .request-form button {
+		width: 100%;
+	}
+
+	.welcome h1, .request-title {
+    	font-size: 32px;
+    	margin-bottom: 10px;
+	}
+
+	.ad, .ad2, .bg__ad2 {
+		width: 100%;
+		min-width: 100%;
+	}
+
+	/*text inputs rows */
+	 .ad .col-sm-4 {
+		margin: 15px auto;
+	}
+
+	/*text button*/
+	.ad .col-sm-10 {
+		margin-top: 10px;
+	}
+
+	#tech-benefits .col-xs-1 {
+    	padding-left: 10px;
+	}
+
+	#tech-benefits .col-xs-11 {    
+    	padding-left: 25px;
+	}
+
+	.ad.ad3, .bg__ad3 {
+		height: auto !important;
+	}
+
+	.bg__ad3:hover::before {
+		height: auto;
+	}
+
+	/* prices 2 section */
+
+	.prices2 {
+		position: relative;
+	}
+	footer {
+		display: none;
+	}
 }

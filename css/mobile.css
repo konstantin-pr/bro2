@@ -72,6 +72,7 @@
 	}
 
 	/*text button*/
+
 	.ad .col-sm-10 {
 		margin-top: 10px;
 	}
@@ -96,8 +97,31 @@
 
 	.prices2 {
 		position: relative;
+		padding: 3%;
 	}
+
+	.prices2 h2 {
+		color: #85C342;
+	}
+
 	footer {
 		display: none;
+	}
+
+	.um-od {
+		font-size: 26px;
+	}
+
+	.um-od.forth-od {
+		top: 0;
+	}
+
+	.rostr {
+		font-size: 20px;
+	}
+
+	.bg__ad3 {
+		background-image: none;
+		background-color: #402110;
 	}
 }

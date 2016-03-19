@@ -93,6 +93,10 @@
 		height: auto;
 	}
 
+	/* first benefits form */
+	.uah {
+		text-align: center;
+	}
 	/* prices 2 section */
 
 	.prices2 {
@@ -123,5 +127,64 @@
 	.bg__ad3 {
 		background-image: none;
 		background-color: #402110;
+	}
+
+	#benefits .col-2, .ico_wrapper {
+    	display: inline-block;
+    	float: none;
+    	text-align: center;
+	}
+
+	#benefits .col-sm-6 {
+		text-align: center;
+	}
+
+	/*shit todo: fix this alfaul code aligment */
+	.s-uah span  {
+    	 padding-left: 0; 
+	}
+
+	.s-uah span img, .uah_sign span img {
+		margin-left: 0 !important;
+	}
+
+	.uah_sign span {
+		margin-left: 2px;
+    	padding: 0; 
+	}
+
+	.highlight_orange + span {
+		display: inline-block;
+		padding-left: 50px;
+	}
+	
+	.prices ul {
+		padding-left: 0 !important;
+	}
+
+	.row.align_center {
+		margin: 0 auto;
+	}
+
+	.price-menu li a {
+		font-size: 25px;
+	}
+
+	.um-od.forth-od {
+		line-height: 20px;
+		top: -20px;
+	}
+ 
+ 	.row.prices_wrapper {
+ 		padding: 20px 0;
+ 	}
+
+ 	.plan h2 {
+ 		text-align: center;
+ 		display: block;
+ 	}
+
+ 	[class*="bg__"] {
+        min-width: 100%;
 	}
 }

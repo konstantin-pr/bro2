@@ -26,7 +26,7 @@
         <script type="text/javascript">
           <!-- 
           if (screen.width > 768) {
-            window.location = "mobile.html";
+            window.location = "index.html";
           }
           //-->
         </script>
@@ -99,8 +99,8 @@
     </div>
 
 </div>
-<header>
-    <nav class="navbar navbar-static-top" role="navigation">
+<header data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+    <nav class="navbar navbar-static-top" role="navigation" >
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -151,34 +151,35 @@
 
 </header>
 
-<!-- <section class="ad ad11">
-    <div class="bg__ad1 bg11">
-        <div class="welcome container">
-           
-            <div class=" email"> parkovaoselya@ukr.net</div>
+  <section class="ad">
+    <div class="bg_mobile row">
+        <div class="container"> 
+                   
+        <div class="row">
+            <h2 class="email">parkovaoselya@ukr.net</h2>
         </div>
-
-        <div class="phones">
-            <span>Телефон:</span>
-            <ul>
-                <li>098-835-80-54</li>
-                <li>093-911-78-17</li>
-            </ul>
-            <a href="#zayavka" class="call-btn call-btn1 btn btn-success btn-lg" onclick="mixpanel.track('goto-main-order-form'); _gaq.push(['_trackEvent', 'Buttons',
-     'Zamovity-zvynok-top-banner']); ">Замовити дзвінок</a>
-
+       <div class="row">
+           <h2 class='col-md-12 email phone'>Телефони:</h2> 
+            <div class='col-md-6'>
+                <h3>098-835-80-54</h3>                 
+            </div>
+            <div class='col-md-6'>                
+                <h3>093-911-78-17</h3>
+            </div>            
         </div>
-        <div class="row address-row container">
-            <div class="col-xs-7 address">м. Буча, вул. Ярослава Мудрого, 10</div>
-
+        <div class="row btn-wrapper">
+            <a href="#zayavka" class="call-btn btn btn-success btn-lg" onclick="mixpanel.track('goto-main-order-form'); _gaq.push(['_trackEvent', 'Buttons',
+     'Zamovity-zvynok-top-banner']);">Замовити дзвінок</a>
+        </div>
+        <div class="row">
+            <div class="col-md-7 col-offset-3 address">м. Буча, вул. Ярослава Мудрого, 10</div>
         </div>
 
     </div>
-
+</div> 
 
 </section>
--->
-<!-- -->
+ <!-- -->
 
 <!-- <div class="ad_forth_q wow pulse animated" data-wow-iteration="2" data-wow-delay="300ms" data-wow-duration="2s">
     <i class="um-od forth-od"><span >Увага!</span> Старт продаж <b class="highlight_orange">Четвертої черги</b> будівництва. </i>
@@ -549,7 +550,7 @@
     </div>
 
 </section>
-
+<!-- 
 <div class="container">
     <section class="building-view">
         <div class="heading">
@@ -564,7 +565,7 @@
 
 
         <div class="buld-second">
-
+  
             <div class="sliderFrame">
                 <div id="first-queue" class="slider bxslider">
                     <li><img src="images/real-photo/1-1.jpg" alt="" />
@@ -577,7 +578,7 @@
                     </li>
                 </div>
 
-            </div>
+            </div>  
 
         </div>
 
@@ -591,7 +592,7 @@
 
         <div class="buld-second">
 
-            <div class="sliderFrame">
+        <div class="sliderFrame">
                 <div id="second-queue" class="slider bxslider">
                     <li><img src="images/photo/2-1.jpg" alt="" />
                     </li>
@@ -603,12 +604,9 @@
                     </li>
                     <li><img src="images/photo/2-5.jpg" alt="" />
                     </li>
-                </div>
-
-            </div>
-
-        </div>
-
+                </div> 
+            </div> 
+        </div> 
     </section>
 
     <section class="building-view" id="third-building-view">
@@ -623,9 +621,9 @@
                 <li><img src="images/photo/3-visual-2.jpg" alt="" />
                 </li>
             </div>
-        </div>
+        </div>  
     </section>
-</div>
+</div> -->
 
 
 <section id="tech-benefits" class="container">

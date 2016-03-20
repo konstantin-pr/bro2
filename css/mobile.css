@@ -155,7 +155,7 @@
 
 	.highlight_orange + span {
 		display: inline-block;
-		padding-left: 50px;
+		
 	}
 	
 	.prices ul {
@@ -164,6 +164,7 @@
 
 	.row.align_center {
 		margin: 0 auto;
+		max-width: 300px;
 	}
 
 	.price-menu li a {
@@ -187,4 +188,79 @@
  	[class*="bg__"] {
         min-width: 100%;
 	}
+
+	/*85C342*/
+	/* navbar header */
+	.navbar-header {
+
+	}
+
+	.navbar-nav, .navbar-nav li, .navbar-nav > li > a:visited {
+		background: #85C342;
+	}
+
+	.navbar-toggle .icon-bar {
+		background: #fff;
+		height: 3px;
+	}
+
+	.navbar-nav>li>a:active{
+		background: orange;
+	}
+
+	.email {
+		position: static;
+	}
+
+	.row {
+		margin: 0;
+	}
+
+	/* Main area*/
+
+	.phone.email {
+		font-size: 28px !important;
+	}
+
+	.ad {
+		height: auto;
+	}
+
+	.btn-wrapper {
+		margin-top: 5px;
+		margin-bottom: 25px;
+	}
+
+	.bg_mobile h3 {
+		color: #a4ff3d;
+		font-family: Arial, serif;
+	}
+
+	.bg_mobile {
+		background: #834B20;
+		padding-bottom: 20px;
+	}
+
+	.bg_mobile h2,  .bg_mobile h3 {
+		display: inline-block;
+		text-align: center;
+		font-size: 	30px;
+	}
+
+	.bg_mobile .row {
+		text-align: center;
+	}
+
+	.address {
+  		color: #a4ff3d;
+  		text-shadow: -1px -1px 1px #834B20, 1px -1px 1px #834B20, -1px 1px 1px #834B20, 1px 1px 1px #834B20;	 
+  		font-size: 	24px;
+	} 
 }
+
+@media  (max-width: 400px) {
+	.highlight_orange + span { 
+			padding-left: 50px;
+	}
+}
+

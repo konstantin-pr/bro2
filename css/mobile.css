@@ -280,11 +280,23 @@
   		text-shadow: -1px -1px 1px #834B20, 1px -1px 1px #834B20, -1px 1px 1px #834B20, 1px 1px 1px #834B20;	 
   		font-size: 	24px;
 	} 
+
+	.call-btn {
+		margin: auto;
+		width: 85% !important;
+	}
 }
 
 @media  (max-width: 400px) {
+
+	
+
 	.highlight_orange + span { 
 			padding-left: 50px;
+	}
+
+	.bg_mobile .email {
+		font-size: 26px;
 	}
 }
 

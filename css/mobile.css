@@ -220,9 +220,22 @@
 	.navbar-toggle {
 		margin-right: 0;
 	}
-	
+
+	.bg__ad2 {
+		height: auto !important;
+		padding: 20px;		 
+	}
+
 	.btn-success.active.focus, .btn-success.active:focus, .btn-success.active:hover, .btn-success:active.focus, .btn-success:active:focus, .btn-success:active:hover {
 		background-color: yellowgreen;
+	} 
+
+	.plan {
+		margin-top: 40px;
+	}
+
+	.bg__ad2 {
+		padding: 20px 0;
 	}
 
 	.bg_mobile {

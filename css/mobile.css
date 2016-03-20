@@ -216,7 +216,18 @@
 		margin: 0;
 	}
 
-	/* Main area*/
+	/* Main area */
+	.navbar-toggle {
+		margin-right: 0;
+	}
+	
+	.btn-success.active.focus, .btn-success.active:focus, .btn-success.active:hover, .btn-success:active.focus, .btn-success:active:focus, .btn-success:active:hover {
+		background-color: yellowgreen;
+	}
+
+	.bg_mobile {
+		padding-top: 20px;
+	}
 
 	.phone.email {
 		font-size: 28px !important;

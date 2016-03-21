@@ -37,12 +37,15 @@ a {
 header,
 footer {
     height: 125px;
-    background: none repeat scroll 0% 0% #85C342;
+    background: none repeat scroll 0% 0% #402110;
     padding: 40px 40px
+}
+header{
+    background: #85C342;
 }
 footer {
     min-height: 405px;
-    background-color: #834B20;
+   
 }
 footer ul li,
 footer ul li a {
@@ -51,11 +54,14 @@ footer ul li a {
 }
 footer {
     height: 335px;
-    background-color: #834B20;
+    background-color: #402110;
 }
 footer ul li,
 footer ul li a {
     color: #F9DF8D
+}
+header{
+    background: #85C342;
 }
 .logo-wrapper {
     padding-top: 40px

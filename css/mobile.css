@@ -255,6 +255,10 @@
 		margin-bottom: 25px;
 	}
 
+	header {
+		height: 150px;
+	}
+
 	.bg_mobile h3 {
 		color: #a4ff3d;
 		font-family: Arial, serif;
@@ -280,23 +284,38 @@
   		text-shadow: -1px -1px 1px #834B20, 1px -1px 1px #834B20, -1px 1px 1px #834B20, 1px 1px 1px #834B20;	 
   		font-size: 	24px;
 	} 
+	
+	.container > .navbar-collapse {
+ 		top: -25px;
+	}
 
 	.call-btn {
 		margin: auto;
 		width: 85% !important;
 	}
+
+	.logo-mobile {
+		display: inline-block;
+		margin: 0;
+		position: relative;
+		left: 0;
+		top: -30px;
+		width: 180px;
+		height: auto;
+	}
+	.ad.ad3 {
+		margin-bottom: 0;
+	}
 }
 
 @media  (max-width: 400px) {
-
-	
 
 	.highlight_orange + span { 
 			padding-left: 50px;
 	}
 
 	.bg_mobile .email {
-		font-size: 26px;
+		font-size: 26px !important;
 	}
 }
 

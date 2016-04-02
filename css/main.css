@@ -1123,3 +1123,27 @@ a,
 a:visited {
     color: #fff!important
 }
+
+.chetverta-ch {
+    border-top: 1px solid orange;
+    margin-top: 40px;
+}
+
+.plan .plan4-9 {
+    height: 450px;
+    width: 600px;
+}
+
+.plan .plan4-9 > img {
+    height: 450px !important;
+    width: 600px;
+}
+
+.heading.pln-4e {
+        margin-top: 40px !important;
+}
+
+.plan4et {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

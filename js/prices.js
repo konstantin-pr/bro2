@@ -1,1 +1,1 @@
-window.prices = {"persha_bazova":null,"persha_aktsiyna":null,"druga_bazova":"15 900","druga_aktsiyna":"14 500","tretya_bazova":"14 800","tretya_aktsiyna":"","chetverta_bazova":"12 200","chetverta_aktsiyna":"7 700"}
+window.prices = {"persha_bazova":null,"persha_aktsiyna":null,"druga_bazova":"15 900","druga_aktsiyna":"14 900","tretya_bazova":"15 800","tretya_aktsiyna":"7 700","chetverta_bazova":"13 900","chetverta_aktsiyna":"13 500"}

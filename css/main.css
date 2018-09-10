@@ -45,7 +45,7 @@ header{
 }
 footer {
     min-height: 405px;
-   
+
 }
 footer ul li,
 footer ul li a {
@@ -906,7 +906,10 @@ header ul li a {
 #f-call-btn {
     width: 400px !important;
     margin: 0 auto 80px !important;
-    box-shadow: 0 0 2em #D4FE4B
+    box-shadow: 0 0 1em #D4FE4B;
+}
+#f-call-btn:hover {
+    box-shadow: 0 0 1em #D4FE4B !important;
 }
 #tech-benefits .col-xs-1 {
     padding-left: 60px;
